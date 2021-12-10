@@ -1,0 +1,25 @@
+body {
+    background: #62d9fb;
+    padding: 5%;
+    text-align: center;
+}
+button {
+    border-radius: 4px;
+    border: 1px solid gray;
+    width: 2em;
+    height: 2em;
+}
+
+.calculator {
+    border-style: groove;
+    border-width: 3px;
+}
+.numberRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.number {
+    width: 2em;
+}

@@ -1,7 +1,7 @@
 let currentNumberArr = document.getElementsByClassName("number");
 
 function increaseNumber(index) {
-    currentNumberArr[index].innerText = parseInt(currentNumberArr[index].innerText)  1;
+    currentNumberArr[index].innerText = parseInt(currentNumberArr[index].innerText) + 1;
     calculateSum();
 }
 
